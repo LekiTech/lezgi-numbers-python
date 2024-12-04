@@ -52,8 +52,7 @@ The package provides two main functions:
 First, import the necessary functions:
 
 ```python
-from src.numToLezgi import numToLezgi
-from src.lezgiToNum import lezgiToNum
+from lezgi_numbers import numToLezgi, lezgiToNum
 ```
 
 ### Converting Numbers to Lezgi Numerals
@@ -78,7 +77,7 @@ Here are additional examples demonstrating the usage of the package.
 ### Example 1: Converting Number to Lezgi Numeral
 
 ```python
-from src.numToLezgi import numToLezgi
+from lezgi_numbers import numToLezgi
 
 print(numToLezgi(700))          # Output: 'ирид виш'
 print(numToLezgi(1001))         # Output: 'агъзурни сад'
@@ -89,7 +88,7 @@ print(numToLezgi(2024))         # Output: 'кьве агъзурни къанн�
 ### Example 2: Converting Lezgi Numeral to Number
 
 ```python
-from src.lezgiToNum import lezgiToNum
+from lezgi_numbers import lezgiToNum
 
 print(lezgiToNum('вишни кьвед'))           # Output: 102
 print(lezgiToNum('минус вишни кьвед'))     # Output: -102
@@ -99,8 +98,7 @@ print(lezgiToNum('кьве агъзурни къанни кьуд'))  # Output: 
 ### Example 3: Handling Large Numbers
 
 ```python
-from src.numToLezgi import numToLezgi
-from src.lezgiToNum import lezgiToNum
+from lezgi_numbers import numToLezgi, lezgiToNum
 
 large_number = 9007199254740991
 lezgi_numeral = numToLezgi(large_number)
