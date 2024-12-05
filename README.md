@@ -15,7 +15,7 @@
 
 ## Introduction
 
-This Python package provides functions to convert integer numbers to their textual representation in the Lezgi language and vice versa. It supports numbers up to 9007199254740991 and down to -9007199254740991, which are the maximum safe integers in JavaScript (the original language of the package).
+This Python package provides functions to convert integer numbers to their textual representation in the Lezgi language and vice versa. It supports numbers up to 9007199254740991 and down to -9007199254740991, which are the maximum safe integers in JavaScript/Typescript ([the original language of the package](https://github.com/LekiTech/lezgi-numbers)).
 
 The Lezgi language is a Northeast Caucasian language spoken by the Lezgin people in southern Dagestan and northern Azerbaijan.
 
